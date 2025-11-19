@@ -256,6 +256,9 @@ h1 {
     .burger-menu {
         display: none;
     }
+    .sidebar {
+        right: -250px !important;
+    }
 }
 
 
@@ -794,3 +797,4 @@ color: #333;
         justify-content: center;
     }
 }
+
