@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+<head>
+    <meta charset="UTF-8">
+    <title>Лендинг</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <main class="page"> 
+        <div id="first-display" class="first-display">
+            <div class="first-display__container">
+                <header id="header" class="header">
+                    <div class="logo">
+                    <a href="#" class="logo">
+                        <img src="img/logo/logo.png" class="logo__img">
+                        <span class="logo-text">tajam</span>
+                    </a>
+                    </div>
+                    <nav class="nav">
+                        <a href="#" class="nav__link title-h3">HOME</a>
+                        <a href="#story-display" class="nav__link title-h3">ABOUT</a>
+                        <a href="#expertise" class="nav__link title-h3">EXPERTISE</a>
+                        <a href="#our-team" class="nav__link title-h3">TEAMS</a>
+                        <a href="#our-works" class="nav__link title-h3">WORKS</a>
+                        <a href="#people" class="nav__link title-h3">PEOPLE SAY</a>
+                        <a href="#footer" class="nav__link title-h3">CONTACT</a>
+                    </nav>
+                    <button class="burger-menu" id="burger-menu" onclick="openSidebar()">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </button>
+                </header>
+                <section class="first-display__content">
+                    <h1>We Are Awesome Creating Agency</h1>
+                    <div class="first-display__separator"></div>
+                    <p class="descrRobotoLight">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+                    <div class="btn first-display__btn">LEARN MORE</div>
+                </section>
+                <section class="first-display__dot-nav">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </section>
+            </div>
+        </div>
+
+        <div id="menu" class="sidebar">
+            <button class="burger-menu sidebar-burger" id="sidebar-burger" onclick="openSidebar()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </button>
+            <nav class="sidebar_nav">
+                <a href="#" class="sidebar_nav__link title-h3">HOME</a>
+                <a href="#story-display" id="sidebar_nav__link" class="sidebar_nav__link title-h3">ABOUT</a>
+                <a href="#expertise" id="sidebar_nav__link" class="sidebar_nav__link title-h3">EXPERTISE</a>
+                <a href="#our-team" id="sidebar_nav__link" class="sidebar_nav__link title-h3">TEAMS</a>
+                <a href="#our-works" id="sidebar_nav__link" class="sidebar_nav__link title-h3">WORKS</a>
+                <a href="#people" id="sidebar_nav__link" class="sidebar_nav__link title-h3">PEOPLE SAY</a>
+                <a href="#footer" id="sidebar_nav__link" class="sidebar_nav__link title-h3">CONTACT</a>
+            </nav>
+        </div>
+    
+
+        <div id="story-display" class="story-display">
+            <div class="story-display__logo__container">
+                <img class="story-display__logo" src="img/logo/logo1.png" alt="Лого">
+            </div>
+            <section class="story-display__content">
+                <h2 class="title-h2">OUR STORY</h2>
+                <p class="descrRobotoLight">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus<br><br>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                <div class="btn">LEARN MORE</div>
+            </section>
+        </div>
+
+
+        <div id="video-segment" class="video-segment">
+            <button class="video-segment__btn" type="image">
+                 <img src="img/video/play.png" alt="PLAY" class="video-segment__logo">
+            </button>
+            <h2 class="title-h3">WATCH OUR STORY</h2>
+        </div>
+
+        <div id="expertise" class="expertise">
+            <div class="expertise__container">
+            <div class="expertise__content">
+                <h2 class="title-h2">EXPERTISE</h2>
+                <p class="descrPlayfairRegular">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+                <div class="expertise__content__separator"></div>
+            </div>
+            <div class="expertise__cards">
+                <div class="expertise__cards__card">
+                    <img src="img/expertise/web-design.png" alt="WEB DESIGN">
+                    <h3 class="title-h3">WEB DESIGN & DEVELOPMENT</h3>
+                    <p class="descrRobotoLight">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                </div>
+                <div class="expertise__cards__card">
+                    <img src="img/expertise/branding.png" alt="BRANDING">
+                    <h3 class="title-h3">BRANDING IDENTITY</h3>
+                    <p class="descrRobotoLight">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                </div>
+                <div class="expertise__cards__card">
+                    <img src="img/expertise/mobile-app.png" alt="MOBILE APP">
+                    <h3 class="title-h3">MOBILE APP</h3>
+                    <p class="descrRobotoLight">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                </div>
+                <div class="expertise__cards__card">
+                    <img src="img/expertise/circular228.png" alt="SEARCH ENGINE">
+                    <h3 class="title-h3">SEARCH ENGINE OPTIMIZATION</h3>
+                    <p class="descrRobotoLight">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                </div>
+                <div class="expertise__cards__card">
+                    <img src="img/expertise/games.png" alt="GAME DEVELOPMENT">
+                    <h3 class="title-h3">GAME DEVELOPMENT</h3>
+                    <p class="descrRobotoLight">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                </div>
+                <div class="expertise__cards__card">
+                    <img src="img/expertise/love.png" alt="HEART">
+                    <h3 class="title-h3">MADE WITH LOVE</h3>
+                    <p class="descrRobotoLight">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div id="our-team" class="our-team">
+            <div class="our-team__container">
+                <div class="our-team__content">
+                    <h2 class="title-h2">MEET OUR AMAZING TEAM</h2>
+                    <p class="descrPlayfairRegular">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+                    <div class="our-team__separator"></div>
+                </div>
+				<div class="team-wrapper">
+                    <div class="team-wrapper_wrapper">
+					    <div class="team-wrapper-item">
+					    	<img src="img/team/team-image.png">
+					    	<div class="team-wrapper-item-text">
+					    		<h3 class="title-h3">SEMF UCUK</h3>
+					    		<p class="descrRobotoLight">CEO & FOUNDER</p>
+					    	</div>
+					    </div>
+
+					    <div class="team-wrapper-item">
+					    	<img src="img/team/team-image.png">
+					    	<div class="team-wrapper-item-text">
+					    		<h3 class="title-h3">SEMF UCUK</h3>
+					    		<p class="descrRobotoLight">CEO & FOUNDER</p>
+					    	</div>
+					    </div>
+                    </div>
+                    <div class="team-wrapper_wrapper">
+					    <div class="team-wrapper-item">
+					    	<img src="img/team/team-image.png">
+					    	<div class="team-wrapper-item-text">
+					    		<h3 class="title-h3">SEMF UCUK</h3>
+					    		<p class="descrRobotoLight">CEO & FOUNDER</p>
+					    	</div>
+					    </div>
+
+					    <div class="team-wrapper-item">
+					    	<img src="img/team/team-image.png">
+					    	<div class="team-wrapper-item-text">
+					    		<h3 class="title-h3">SEMF UCUK</h3>
+					    		<p class="descrRobotoLight">CEO & FOUNDER</p>
+					    	</div>
+                        </div>
+                    </div>
+				</div>
+                <p class="descrRobotoLight our-team__descr">Become part of our dream team, let’s join us !</p>
+                <div class="btn">WE ARE HIRING</div>
+            </div>
+        </div>
+
+        <div id="our-works" class="our-works">
+            <div class="our-works__content">
+                <h2 class="title-h2 our-works__content__title">OUR WORKS</h2>
+                <p class="descrRobotoLight our-works__content__descr">See All Project in dribbble</p>
+            </div>
+            <div class="our-works__wrapper">
+                <div class="our-works__wrapper__item"></div>
+                <div class="our-works__wrapper__item"></div>
+                <div class="our-works__wrapper__item"></div>
+                <div class="our-works__wrapper__item"></div>
+                <div class="our-works__wrapper__item"></div>
+                <div class="our-works__wrapper__item"></div>
+                <div class="our-works__wrapper__item"></div>
+                <div class="our-works__wrapper__item"></div>
+                <div class="our-works__wrapper__item"></div>
+                <div class="our-works__wrapper__item"></div>
+                <div class="our-works__wrapper__item"></div>
+                <div class="our-works__wrapper__item"></div>
+            </div>
+            <div class="btn">LOAD MORE</div>
+        </div>
+
+        
+        <div id="people" class="peoples">
+            <section class="container">
+                <div class="peoples-wrapper">
+                    <p>“</p>
+                    <p class="description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.
+                    </p>
+                    <h3 class="title_h3">JANE GALADRIEL</h3>
+                    <p class="peoples-wrapper_description">CEO TENGKUREP</p>
+                </div>
+                <div class="people-photo-wrapper">
+                    <img class="peolple-shevron" src="img/ourworks/right.png">
+                        <div class="people-photo-wrapper-item">
+                        <img src="img/people/people1.png">
+                    </div>
+                    <div class="people-photo-wrapper-item">
+                        <img src="img/people/people2.png">
+                    </div>
+                    <div class="people-photo-wrapper-item active">
+                        <img src="img/people/people3.png">
+                    </div>
+                    <div class="people-photo-wrapper-item">
+                        <img src="img/people/people4.png">
+                    </div>
+                    <div class="people-photo-wrapper-item">
+                        <img src="img/people/people5.png">
+                    </div>
+                    <img class="peolple-shevron" src="img/ourworks/right.png">
+                </div>
+            </section>
+        </div>
+
+
+        <div id="submit-form" class="submit-form">
+            <section class="container">
+                <div class="submit-columns-wrapper">
+                    <div class="submit-columns-wrapper-item">
+                        <h3 class="title submit-form__title">GIVE US A GOOD NEWS</h3>
+                        <div class="submit-columns-wrapper-item-sub">
+                            <input type="text" class="submit-input" placeholder="Name">
+                            <input type="email" class="submit-input" placeholder="Email">
+                            <input type="text" class="submit-input" placeholder="Subject">
+                            <textarea placeholder="Your Message" class="submit-input" rows="10"></textarea>
+                            <button class="btn submit-form__btn">SUBMIT</button>
+                        </div>
+                    </div>
+                    <div class="submit-columns-wrapper-item">
+                        <h3 class="title submit-form__title">OUR HAPPY CLIENT</h3>
+                        <div class="submit-columns-sub-wrapper">
+                            <div class="submit-columns-wrapper-item-sub">
+                                <img src="img/clients/Zara.png" alt="Zara">
+                                <img src="img/clients/Barneys_New_York.png" alt="Barneys_New_York">
+                                <img src="img/clients/Calvin_klein.png" alt="Calvin_klein">
+                                <img src="img/clients/Converse.png" alt="Converse">
+                                <img src="img/clients/Levi's.png" alt="Levi's">
+                            </div>
+                            <div class="submit-columns-wrapper-item-sub">
+                                <img src="img/clients/Mango.png" alt="Mango">
+                                <img src="img/clients/Gucci.png" alt="Gucci">
+                                <img src="img/clients/Nike.png" alt="Nike">
+                                <img src="img/clients/Puma.png" alt="Puma">
+                                <img src="img/clients/Billabong.png" alt="Billabong">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="footer" class="footer">
+            <section class="footer__container">
+                <div class="footer-wrapper">
+                    <div class="footer-item">
+                        <div class="title-container">
+                            <img src="img/logo/logo.png" class="logo__img">
+                            <span class="logo-text">tagam</span>
+                        </div>
+                        <div class="footer-item-item">
+						    <p class="descrRobotoLight">lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
+					    </div>
+                    </div> 
+                    <div class="footer-item">
+                        <div class="title-container">
+                            <h3 class="title-h3">OUR STUDIO</h3>
+                        </div>
+                        <div class="footer-item-item">
+						    <div class="address-wrapper">
+                                <img src="img/footer/location.png" alt="" class="address-img">
+                                <p class="descrRobotoLight address-info"><i class="fa-map-marker"></i> Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat 11480 - Indonesia</p>
+                            </div>
+                            <div class="phone-wrapper">
+                                <img src="img/footer/phone.png" alt="" class="phone-img">
+                                <p class="descrRobotoLight phone-info"><i class="fa-phone"></i> (+62) 21-2224 3333</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-item">
+                        <div class="title-container">
+                            <h3 class="title-h3">STAY IN TOUCH</h3>
+                        </div>
+                        <div class="footer-item-item">
+                            <div class="input-wrapper">
+						        <input type="text" placeholder="Subscribe our newsletter">
+                                <button><i class="fa fa-paper-plane-o fa-1x"></i></button>
+                            </div>
+                            <div class="socials">
+                                <div class="socials__item"><img src="img/footer/facebook.png" alt="FB"></div>
+                                <div class="socials__item"><img src="img/footer/google.png" alt="G+"></div>
+                                <div class="socials__item"><img src="img/footer/instagram.png" alt="IG"></div>
+                                <div class="socials__item"><img src="img/footer/twitter.png" alt="X"></div>
+                                <div class="socials__item"><img src="img/footer/youtube.png" alt="YT"></div>
+                            </div>
+					    </div>
+                    </div>
+                </div>
+                <div class="footer-nav-wrapper">
+			            <nav class="footer-nav">
+				            <a href="#first-display" class="nav__link">HOME</a>
+                            <a href="#story-display" class="nav__link">ABOUT</a>
+                            <a href="#expertise" class="nav__link">EXPERTISE</a>
+                        </nav>
+                        <p>Copyright 2015 - Tajem Creative </p>
+                    </div>
+            </section>
+        </div>
+    </main>
+
+
+    <script>
+        const sidebar = document.querySelector('#menu');
+        function openSidebar() {
+            sidebar.classList.toggle('open');
+        }
+        document.querySelectorAll('.sidebar_nav__link').forEach(link => {
+            link.addEventListener('click', () => {
+            sidebar.classList.remove('open');
+        });
+    });
+    </script>
+
+    <script>
+    const header = document.querySelector('#header');
+    let lastScroll = 0;
+
+    window.addEventListener("scroll", () => {
+        const currentScroll = window.pageYOffset;
+
+        if (currentScroll === 0) {
+            header.classList.remove('show', 'hide');
+            header.classList.add('initial');
+            return;
+        }
+
+        header.classList.remove('initial');
+
+        if (currentScroll > lastScroll) {
+            header.classList.remove('show');
+            header.classList.add('hide');
+        } else {
+            header.classList.remove('hide');
+            header.classList.add('show');
+        }
+
+        lastScroll = currentScroll;
+});
+
+</script>
+
+</body>
+</html>
