@@ -219,7 +219,19 @@ h1 {
     color: white;
     font-size: 20px;
 }
-
+.sidebar_bar{
+    animation-delay: 0.5s;
+    transition: transform 0.3s ease;
+}
+.sidebar.open .sidebar_bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg); 
+}
+.sidebar.open .sidebar_bar:nth-child(2) {
+    opacity: 0; 
+}
+.sidebar.open .sidebar_bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
 @media screen and (max-width: 768px) {
     .nav {
         display: none;
@@ -787,7 +799,11 @@ color: #333;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
+.fa-paper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media (max-width: 999px) {
     .footer__container {
         width: min(100%, 600px)
@@ -799,6 +815,7 @@ color: #333;
         align-items: center;
         row-gap: 10px;
         justify-content: center;
+        row-gap: 20px;
     }
 }
 
