@@ -463,6 +463,10 @@ color: #333;
     margin: 0 auto;
     border: 1px solid rgba(255, 255, 255, .5);
 }
+.team-wrapper-item img {
+    width: 220px;
+    height: 230px;
+}
 .team-wrapper-item-text{
     text-align: center;
     margin: 20px 0 20px 0;
@@ -797,4 +801,5 @@ color: #333;
         justify-content: center;
     }
 }
+
 
